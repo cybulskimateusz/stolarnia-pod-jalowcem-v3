@@ -10,6 +10,7 @@ export const Slider = styled.div`
 	img {
 		max-width: 100%;
 		max-height: 100%;
+		min-width:90%;
 	}
 
 	&.menu--active {
@@ -22,6 +23,7 @@ export const Slider = styled.div`
 	@media (min-width: 768px) {
 		height: 73vh;
 		left: 20%;
+		min-width:50vw;
 	}
 	@media (min-width: 425px) and (max-width: 768px) {
 		top: 25%;
